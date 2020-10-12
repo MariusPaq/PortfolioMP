@@ -1,6 +1,7 @@
       </div>
-      <footer class="footer">
-
+      <div class="shadowFooter"></div>
+      <footer class="footer parallax3">
+      
       </footer>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
