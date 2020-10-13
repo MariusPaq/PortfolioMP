@@ -110,7 +110,9 @@ footer{height: 500px;}
 .ml11 {
   font-weight: 700;
   font-size: 3.5em;
-	color: white;margin-top: 15%;margin-left: 20%;
+	color: white;
+	margin-top: 15%;
+	margin-left: 30%;
 }
 
 .ml11 .text-wrapper {
