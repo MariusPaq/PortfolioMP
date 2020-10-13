@@ -26,9 +26,9 @@
           <div class="row">
             <div class="col-7">
               <p id="presentation">
-                Eyant toujours ete attirés par les metiers de l'informatiques j'ai effectuer un Baccalauréat STI2D otion Systèmes d’information et numérique. Je me suis ensuite dirigé vers un DUT Informatique à l'Université de Bourgogne à dijon.
+                Ayant toujours été attirés par les metiers de l'informatiques j'ai effectué un Baccalauréat STI2D option Systèmes d’information et numérique. Je me suis ensuite dirigé vers un DUT Informatique à l'Université de Bourgogne à dijon.
 
-                Lors de mon stage de DUT que j'ai effectuer à effalia, j'ai découvert le webdesigne et webdevelopement dans un millieux proffestionelle, ce qui m'a pousser à effectuer une formation de webdesigner à ONLINEFORMATPRO ACS DIJON qui se déroule en ce moment.
+                Lors de mon stage de DUT que j'ai effectué à effalia, j'ai découvert le webdesigne et web developement dans un milieux proffessionelle, ce qui m'a poussé à effectuer une formation de webdesigner à ONLINEFORMATPRO ACS DIJON qui se déroule en ce moment.
 
 
                 Actuelement: Actuellement je suis à la recherche d’un stage non-rémunérer d’une durée de 2 mois en temps que « Designer/Développeur Web » à compter du 4 Novembre au 8 Janvier, afin de valider ma formation « Designer Web » à L’Access code school OnlineFormatPro Dijon.</p>

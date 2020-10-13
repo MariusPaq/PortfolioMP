@@ -1,4 +1,3 @@
-
 //burgerMenu
 var burgerMenu = document.getElementById("burgerMenu");
 var topNav = document.getElementById("responsiveNav");
