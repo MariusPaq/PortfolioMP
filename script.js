@@ -14,13 +14,13 @@ burgerMenu.addEventListener("click",function(){
     }
 })
 
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {scrollBM()};
 
 var burgerMenu = document.getElementById("burgerMenu");
 var bgY = burgerMenu.offsetTop;
 var topNav = document.getElementById("responsiveNav");
 
-function myFunction() {
+function scrollBM() {
   if (window.pageYOffset > bgY) {
     topNav.className = "topnav";
   }
@@ -30,6 +30,8 @@ function myFunction() {
   }
 }
 //
+
+
 
 //h1
 // Wrap every letter in a span

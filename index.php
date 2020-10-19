@@ -15,9 +15,9 @@
     <div class="parallax" id="p2"></div>
     <div class="aProposBack">
       <div id="linkPropos" class="row">
-        <span class="btn-grad" id="btnparcours">Mon Parcours</span>
-        <span class="btn-grad" id="btnhobbies">Hobbies</span>
-        <span class="btn-grad" id="btnambitions">Ambitions</span>
+        <span class="btn-grad" id="btnparcours"><p>Mon Parcours</p></span>
+        <span class="btn-grad" id="btnhobbies"><p>Hobbies</p></span>
+        <span class="btn-grad" id="btnambitions"><p>Ambitions</p></span>
       </div>
 
 
@@ -107,6 +107,11 @@
 
   <div id="projet" class="diapo projet">
     <h2 class="whiteFont">Projets</h2>
+    <div class="d-flex justify-content-center">
+      <?php createCardProjet('projet01','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id1'); ?>
+      <?php createCardProjet('projet02','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id2'); ?>
+      <?php createCardProjet('projet03','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id3'); ?>
+    </div>
   </div>
 
 <?php include 'footer.php' ?>
