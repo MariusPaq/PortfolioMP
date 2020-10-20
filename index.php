@@ -108,9 +108,9 @@
   <div id="projet" class="diapo projet">
     <h2 class="whiteFont">Projets</h2>
     <div class="d-flex justify-content-center">
-      <?php createCardProjet('projet01','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id1'); ?>
-      <?php createCardProjet('projet02','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id2'); ?>
-      <?php createCardProjet('projet03','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id3'); ?>
+      <?php createCardProjet('Projet WordPress','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id1'); ?>
+      <?php createCardProjet('Flappy Bird','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id2'); ?>
+      <?php createCardProjet('Portfolio','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id3'); ?>
     </div>
   </div>
 
