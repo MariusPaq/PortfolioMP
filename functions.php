@@ -11,13 +11,38 @@ function createCardComp($title,$img){
   ';
 }
 
-function createCardProjet($title,$desc,$id){
+function createCardProjet($title,$desc,$id,$desc2,$img1,$img2,$other=false,$other2=false){
   echo '
     <div class="cardProj" id="'.$id.'">
       <div class="hover">
-        <a href="#"><h5 class="titleCardProj">'.$title.'</h5><a>
+        <a href="" data-toggle="modal" data-target="#modale'.$id.'"><h5 class="titleCardProj">'.$title.'</h5><a>
         <div class="descCardProj">
           <p class="pCardProj">'.$desc.'<p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modale'.$id.'" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">'.$title.'</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>'.$desc.'</p>
+            <img src="img/'.$img1.'"></img>
+            <p>'.$desc2.'</p>
+            <img src="img/'.$img2.'"></img>
+            <div>'.$other.'</div>
+            <div>'.$other2.'</div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
     </div>

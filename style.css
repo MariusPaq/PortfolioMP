@@ -103,15 +103,18 @@ box-shadow: 0 0 7px black;color: white;text-shadow: 0px 0px 10px rgba(0,0,0,0.2)
 
 /*---Projet---*/
 .projet h2{margin-bottom: 100px;}
-.cardProj{box-shadow: 0 0 20px black;width: 1000px;height: 400px;margin-left: 5%;margin-right: 5%;margin-bottom: 50px;border-radius: 10px;overflow: hidden;}
+.cardProj{box-shadow: 0 0 20px black;width: 249px;height: 400px;margin-left: 5%;margin-right: 5%;margin-bottom: 50px;border-radius: 10px;overflow: hidden;}
 .hover{width: 100%;height: 100%;text-align: center;}
 .hover a{color: #212529;text-decoration: underline;}
 .titleCardProj{padding-top: 5px;}
 .pCardProj{display: none;margin-top: 70%!important;margin: 5px;}
-#id1,#id2,#id3{background-size: 100% 100%;}
+#id1,#id2,#id3,#id4,#id5{background-size: 100% 100%;}
+#id1 h5,#id2 h5,#id3 h5,#id4 h5,#id5 h5{text-shadow: 0 0 10px white;}
 #id1{background-image: url('img/wordpressEgalite.png');}
 #id2{background-image: url('img/flappy.png');}
 #id3{background-image: url('img/portfolio.png');}
+#id4{background-image: url('img/explo.PNG');}
+#id5{background-image: url('img/boulangerie.jpg');}
 
 /*---Footer---*/
 .shadowFooter{height: 10px;box-shadow: 0 0 20px black;}
