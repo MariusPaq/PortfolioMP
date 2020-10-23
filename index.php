@@ -15,9 +15,9 @@
     <div class="parallax" id="p2"></div>
     <div class="aProposBack">
       <div id="linkPropos" class="row">
-        <span class="btn-grad" id="btnparcours"><p>Mon Parcours</p></span>
-        <span class="btn-grad" id="btnhobbies"><p>Hobbies</p></span>
-        <span class="btn-grad" id="btnambitions"><p>Ambitions</p></span>
+        <span class="btn-grad" id="btnparcours"><p id="txtbtnparcours">Mon Parcours</p></span>
+        <span class="btn-grad" id="btnhobbies"><p id="txtbtnhobbies">Hobbies</p></span>
+        <span class="btn-grad" id="btnambitions"><p id="txtbtnambitions">Ambitions</p></span>
       </div>
 
 
@@ -68,7 +68,7 @@
 
     </div>
     <div class="curiVita">
-      <a href="img/cv-page-001.jpg" id="btCv" class="btn-grad"><p>Curriculum Vitae</p></a>
+      <a href="img/cv-page-001.jpg" id="btCv" class="btn-grad"><p id="txtbtCv">Curriculum Vitae</p></a>
       <div class="linkHub">
         <a href="https://fr.linkedin.com/in/marius-paquet"><img src="img/QRLink.png" alt="QR Code Linkedin" class="qrCode" id="qrLink"></a>
         <a href="https://github.com/MariusPaq"><img src="img/QRGit.png" alt="QR Code github" class="qrCode" id="qrGit"></a>
