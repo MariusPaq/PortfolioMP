@@ -14,13 +14,16 @@ function createCardComp($title,$img){
 function createCardProjet($title,$desc,$id,$desc2,$img1,$img2,$other=false,$other2=false){
   echo '
     <div class="cardProj" id="'.$id.'">
-      <div class="hover">
-        <a href="" data-toggle="modal" data-target="#modale'.$id.'"><h5 class="titleCardProj">'.$title.'</h5><a>
-        <div class="descCardProj">
-          <p class="pCardProj">'.$desc.'<p>
+      <a href="" data-toggle="modal" data-target="#modale'.$id.'">
+        <div class="hover">
+          <h5 class="titleCardProj">'.$title.'</h5>
+          <div class="descCardProj">
+            <p class="pCardProj">'.$desc.'<p>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
+
 
     <!-- Modal -->
     <div class="modal fade" id="modale'.$id.'" tabindex="-1" role="dialog">
@@ -57,13 +60,14 @@ $(document).ready(function( $ ){
   hoverProj.hover(
     function(){
       $(this).css('background-color','rgba(0,0,0,0.6)');
-      $(this).find("a").css('color','white');
+      $(this).find("p").css('color','white');
       $(this).find("p").css('display','block');
+      $(this).find("h5").css('color','white');
     },
     function (){
       $(this).css('background-color','rgba(0,0,0,0)');
-      $(this).find("a").css('color','#212529');
       $(this).find("p").css('display','none');
+      $(this).find("h5").css('color','#212529');
     }
   );
 

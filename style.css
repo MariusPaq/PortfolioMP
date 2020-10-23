@@ -42,19 +42,25 @@ background-position: center;background-repeat: no-repeat;background-size: cover;
 background-position:bottom;;background-repeat: no-repeat;background-size: cover;}
 .parallax2{background-image: url("img/code.jpg");background-attachment: fixed;
 background-position:bottom;;background-repeat: no-repeat;background-size: cover;}
-#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#p10,#p11{border-radius: 30px;box-shadow: 0 0 20px black;
+.parallax4{background-image: url("img/projet.jpg");background-attachment: fixed;
+background-position:bottom;;background-repeat: no-repeat;background-size: cover;}
+#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#p10,#p11,#p12,#p13,#p14,#p15{border-radius: 30px;box-shadow: 0 0 20px black;
 margin-left: auto;margin-right: auto;}
 #p1{height: 100px;width: 1200px;margin-top: -50px;position: relative;z-index: -2;}
 #p3{height: 66px;width: 1100px;margin-top: 10px;position: relative;}
 #p4{height: 33px;width: 1000px;margin-top: 10px;position: relative;}
 #p2{height: 100px;width: 600px;margin-left: 46%;margin-top: 10px;position: relative;z-index: -2;}
 #p5{height: 33px;width: 600px;margin-left: 46%;position: relative;}
-#p6{height: 99px;width: 1000px;position: relative;margin-top: -100px;position: relative;z-index: -1;}
-#p7{height: 66px;width: 900px;position: relative;margin-top: 10px;position: relative;z-index: -1;margin-left: 0%;}
-#p8{height: 33px;width: 800px;position: relative;margin-top: 10px;position: relative;z-index: -1;margin-left: -5%;}
-#p9{height: 66px;width: 800px;position: relative;margin-top: 10px;position: relative;z-index: -1;margin-left: 34%;margin-top: -33px;}
-#p10{height: 33px;width: 800px;position: relative;margin-top: 10px;position: relative;z-index: -1;margin-left: 40%;margin-top: 10px;}
-#p11{height: 99px;width: 650px;position: relative;margin-top: 10px;position: relative;z-index: -1;margin-bottom: -50px;}
+#p6{height: 99px;width: 1000px;margin-top: -100px;position: relative;z-index: -1;}
+#p7{height: 66px;width: 900px;margin-top: 10px;position: relative;z-index: -1;margin-left: 0%;}
+#p8{height: 33px;width: 800px;margin-top: 10px;position: relative;z-index: -1;margin-left: -5%;}
+#p9{height: 66px;width: 800px;margin-top: 10px;position: relative;z-index: -1;margin-left: 34%;margin-top: -33px;}
+#p10{height: 33px;width: 800px;margin-top: 10px;position: relative;z-index: -1;margin-left: 40%;margin-top: 10px;}
+#p11{height: 99px;width: 650px;margin-top: 10px;position: relative;z-index: -1;margin-bottom: -50px;}
+#p12{height: 99px;width: 1050px;margin-bottom: -50px;position: relative;z-index: -1;}
+#p13{height: 33px;width: 800px;margin-bottom: 10px;position: relative;z-index: -1;}
+#p14{height: 66px;width: 700px;margin-top: -90px;position: relative;z-index: -1;}
+#p15{height: 33px;width: 400px;margin-top: 10px;position: relative;z-index: -1;}
 /*parallax*/
 
 /*APropos*/
@@ -104,8 +110,8 @@ box-shadow: 0 0 7px black;color: white;text-shadow: 0px 0px 10px rgba(0,0,0,0.2)
 /*---Projet---*/
 .projet h2{margin-bottom: 100px;}
 .cardProj{box-shadow: 0 0 20px black;width: 249px;height: 400px;margin-left: 5%;margin-right: 5%;margin-bottom: 50px;border-radius: 10px;overflow: hidden;}
+.cardProj a{color: #212529;text-decoration: none;}
 .hover{width: 100%;height: 100%;text-align: center;}
-.hover a{color: #212529;text-decoration: underline;}
 .titleCardProj{padding-top: 5px;}
 .pCardProj{display: none;margin-top: 70%!important;margin: 5px;}
 #id1,#id2,#id3,#id4,#id5{background-size: 100% 100%;}
