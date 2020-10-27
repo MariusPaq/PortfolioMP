@@ -79,30 +79,30 @@
     <div class="parallax" id="p4"></div>
   </div>
 
-
-<div class="container">
   <div id="competences" class="diapo competences">
     <h2 class="whiteFont">Competences</h2>
-    <div class="competencesBack">
-      <div class="parallax2" id="p11"></div>
-      <div class="d-flex justify-content-center">
-        <?php createCardComp('HTML/CSS','img/html.png'); ?>
-        <?php createCardComp('JavaScript','img/javascript.png'); ?>
+    <div class="competencesContain">
+      <div class="competencesBack">
+        <div class="parallax2" id="p11"></div>
+        <div class="d-flex justify-content-center">
+          <?php createCardComp('HTML/CSS','img/html.png'); ?>
+          <?php createCardComp('JavaScript','img/javascript.png'); ?>
+        </div>
+        <div class="d-flex justify-content-center">
+          <?php createCardComp('PHP','img/php.png'); ?>
+          <?php createCardComp('PL/SQL','img/sql.png'); ?>
+          <?php createCardComp('Java','img/java.png'); ?>
+        </div>
       </div>
-      <div class="d-flex justify-content-center">
-        <?php createCardComp('PHP','img/php.png'); ?>
-        <?php createCardComp('PL/SQL','img/sql.png'); ?>
-        <?php createCardComp('Java','img/java.png'); ?>
+      <div class="parallax2" id="p6"></div>
+      <div class="parallax2" id="p7"></div>
+      <div class="parallax2" id="p8"></div>
+      <div class="competencesBack2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis. Fusce commodo congue ligula, a efficitur diam rhoncus id. Phasellus sollicitudin enim at elementum tincidunt. Donec in nunc ornare, fringilla est sit amet, scelerisque mauris. Donec maximus, ipsum eu ultrices facilisis, velit urna dapibus massa, at auctor dolor elit quis velit.</p>
       </div>
+      <div class="parallax2" id="p9"></div>
+      <div class="parallax2" id="p10"></div>
     </div>
-    <div class="parallax2" id="p6"></div>
-    <div class="parallax2" id="p7"></div>
-    <div class="parallax2" id="p8"></div>
-    <div class="competencesBack2">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis. Fusce commodo congue ligula, a efficitur diam rhoncus id. Phasellus sollicitudin enim at elementum tincidunt. Donec in nunc ornare, fringilla est sit amet, scelerisque mauris. Donec maximus, ipsum eu ultrices facilisis, velit urna dapibus massa, at auctor dolor elit quis velit.</p>
-    </div>
-    <div class="parallax2" id="p9"></div>
-    <div class="parallax2" id="p10"></div>
   </div>
 
   <div id="projet" class="diapo projet">

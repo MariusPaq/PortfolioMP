@@ -12,7 +12,6 @@
     <?php require 'functions.php' ?>
     <header class="header" id="header">
         <nav class="topnav" id="responsiveNav">
-          <a href="#">Home</a>
           <a href="#aPropos">A propos de moi</a>
           <a href="#competences">Compétences</a>
           <a href="#projet">Projets</a>

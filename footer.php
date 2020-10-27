@@ -1,6 +1,5 @@
-      </div>
       <div class="shadowFooter"></div>
-      <footer class="footer parallax3">
+      <footer class="footer parallax3 whiteFont">
         <span id="btn-Up"><p id="txtUp">Up</p></span>
         <div class="navFooter">
           <a href="#aPropos">A propos de moi</a>
