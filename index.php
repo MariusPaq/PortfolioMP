@@ -109,12 +109,12 @@
     <h2 class="whiteFont">Projets</h2>
     <div class="parallax4" id="p13"></div>
     <div class="parallax4" id="p12"></div>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center"  id="dflexproj1">
       <?php createCardProjet('Projet WordPress','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id1','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','','','<a href="https://mariusp.promo-42.codeur.online/egalitehf/">Egalité Homme Femme<a>'); ?>
       <?php createCardProjet('Flappy Bird','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id2','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','','','<a href="https://mariusp.promo-42.codeur.online/flappyBirds/">Play</a>'); ?>
       <?php createCardProjet('Portfolio','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id3','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','',''); ?>
     </div>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center"  id="dflexproj2">
       <?php createCardProjet('Design Explorateur Fichiers','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id4','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','',''); ?>
       <?php createCardProjet('Design Boulangerie','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','id5','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis.','',''); ?>
     </div>

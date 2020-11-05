@@ -1,3 +1,22 @@
+//dflex-projet
+var dflexproj1 = document.getElementById('dflexproj1');
+var dflexproj2 = document.getElementById('dflexproj2');
+var diapoProj = document.getElementById('projet');
+flexProj();
+window.addEventListener('resize',flexProj);
+function flexProj(){
+  if (window.innerWidth<=500){
+    dflexproj1.className="d-flex flex-column";
+    dflexproj2.className="d-flex flex-column";
+    projet.style.height="2550px";
+  } else if (window.innerWidth>500) {
+    dflexproj1.className="d-flex justify-content-center";
+    dflexproj2.className="d-flex justify-content-center";
+    projet.style.height="1000px";
+  }
+}
+//dlex-projet
+
 //burgerMenu
 var burgerMenu = document.getElementById("burgerMenu");
 var topNav = document.getElementById("responsiveNav");

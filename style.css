@@ -1,6 +1,6 @@
 body{background: linear-gradient(70deg, rgb(48, 152, 243), pink);z-index: -100;position: relative;overflow-x: hidden;}
 .whiteFont{color: white;}
-h2{margin-top: 5%;margin-left: 5%;margin-top: 0%;margin-left: 5%;font-size: 100px;font-weight: revert;font-style: italic;font-variant-caps: titling-caps;}
+h2{margin-top: 5%;margin-right: 5%;margin-top: 0%;margin-left: 5%;font-size: 100px;font-weight: revert;font-style: italic;font-variant-caps: titling-caps;}
 
 /*Smooth Scroll*/
 html{scroll-behavior: smooth;}
@@ -43,7 +43,7 @@ margin-left: auto;margin-right: auto;}
 #p3{height: 66px;width: 1100px;margin-top: 10px;position: relative;}
 #p4{height: 33px;width: 1000px;margin-top: 10px;position: relative;}
 #p2{height: 100px;width: 600px;margin-left: 46%;margin-top: 10px;position: relative;z-index: -2;}
-#p5{height: 33px;width: 600px;margin-left: 46%;position: relative;}
+#p5{height: 33px;width: 600px;margin-left: 46%;position: relative;margin-top: 50px;}
 #p6{height: 99px;width: 1000px;margin-top: -100px;position: relative;z-index: -1;}
 #p7{height: 66px;width: 900px;margin-top: 10px;position: relative;z-index: -1;margin-left: 0%;}
 #p8{height: 33px;width: 800px;margin-top: 10px;position: relative;z-index: -1;margin-left: -5%;}
@@ -82,7 +82,7 @@ box-shadow: 0 0 7px black;color: white;text-shadow: 0px 0px 10px rgba(0,0,0,0.2)
 /*Competences*/
 .competencesContain{max-width: 1140px;margin-left: auto;margin-right: auto;}
 .competences h2{float: right;margin-top: 0;height: 00px;}
-.competencesBack{padding-top: 200px;}
+.competencesBack{padding-top: 120px;}
 .competencesBack2{height: 200px;background-color: white;box-shadow: 0 0 20px black;border-radius: 10px;margin-top: -15px;}
 .competencesBack2 p{text-align: justify;margin-left: 10%;margin-right: 10%;padding-top: 20px;}
 .cardComp{background-color: white;box-shadow: 0 0 20px black;width: 222px;height: 200px;margin-left: 5%;margin-right: 5%;margin-bottom: 50px;border-radius: 10px;overflow: hidden;}
@@ -171,29 +171,109 @@ footer{height: 500px;text-align: center;}
 }
 
 @media (max-width: 1150px) {
-	.competencesContain{width: 1000px;}
+	.competencesContain{max-width: 1000px;}
 	.competencesBack2{width: 800px;}
 	#p7{margin-left: 7%;}
 	#p9,#p10{width: 600px;}
 }
 
+/*short screens and tablets*/
 @media (max-width: 1024px) {
+	.home{height: 600px!important;}
+	.diapo{height: 1000px;}
 
 	/*APropos*/
-	.aProposBack{width: 610px;height: 467.5px;}
+	.aProposBack{width: 610px;height: 400px;margin-top: -40px;}
+	#p2{height: 66px;}
+	#p5{height: 20px;}
 	#p2,#p5{width: 400px;}
 	.curiVita{width: 690px;}
-	#p1{width: 740px;}
-	#p3{width: 640px;}
-	#p4{width: 540px;}
-	#presentation,#txtHobbies,#txtAmbitions{font-size: 11px;}
+	#p1{width: 740px;height: 66px;margin-top: -40px;}
+	#p3{width: 640px;height: 33px;}
+	#p4{width: 540px;height: 20px;}
+	.aPropos #presentation,#txtHobbies,#txtAmbitions{font-size: 11px;margin-top: 6%;}
 	.aPropos #PP,#hobbies img,#ambitions img {width: 150px;}
 	#btnparcours,#btnhobbies,#btnambitions{width: 110px!important;}
-	#linkPropos span{margin-top: 30px;}
+	#linkPropos span{margin-top: 20px;}
 	/*APropos*/
 
+	/*Competences*/
+	.cardComp{width: 150px;height: 135px;}
+	#p11{width: 500px;height: 66px;margin-bottom: -35px;}
+	#p6{width: 740px;height: 66px;margin-top: -80px;}
+	#p7{width: 630px;height: 33px;}
+	#p8{width: 520px;height: 20px;}
+	#p7,#p8,#p9,#p10{margin-left: auto;margin-right: auto;}
+	.competencesBack2{width: 680px;margin-left: auto;margin-right: auto;font-size: 14px;margin-top: -10px;}
+	#p9{width: 520px;height: 33px;margin-top: -20px;}
+	#p10{width: 600px;height: 20px;}
+	/*Competences*/
+
+	/*Projet*/
+	.cardProj{width: 167px;height: 250px;margin-left: 3%;margin-right: 3%;}
+	.descCardProj{font-size: 14px;}
+	#p12{width: 740px;height: 66px;margin-bottom: -35px;}
+	#p13{width: 500px;height: 20px;}
+	#p14{width: 500px;height: 33px;margin-top: -67px;}
+	#p15{width: 300px;height: 20px;}
+	/*Projet*/
+
+	/*footer*/
+	#pfooter{font-size: 14px;width: 700px;}
+	/*footer*/
 }
 
+/*Mobile horizontal*/
 @media (max-width: 740px) {
+	.home{height: 500px!important;}
+	.ml11{margin-left: 10%;}
+	.ml13{margin-left: 40%;}
+}
 
+/*Mobile verticale*/
+@media (max-width: 500px){
+	#btn-Up{display: none;}
+	.ml11{font-size: 1.5em;margin-top: 150px;}
+	.ml13{font-size: 1em;}
+	/*APropos*/
+	.aPropos{height: 900px!important;}
+	#presentation,#txtHobbies,#txtAmbitions{font-size: 8px!important;}
+	.aPropos #PP, #hobbies img, #ambitions img{width: 80px;margin-right: 25%;margin-top: 20%;}
+	#btnparcours, #btnhobbies, #btnambitions, #btCv, #btCvf{width: 30px!important;overflow: hidden;}
+	#btnparcours p, #btnhobbies p, #btnambitions p, #btCv p, #btCvf p{font-size: 10px;margin-left: -20px;}
+	#qrLink,#qrGit{width: 60px!important;margin-top: 5px;}
+	h2{font-size: 50px;}
+	.aProposBack,#p2,#p5,#p1,#p3,#p4,.curiVita{width: 300px!important;margin-left: auto;margin-right: auto;}
+	.aProposBack{height: 400px;margin-top: -40px;}
+	#p5{width: 200px!important;}
+	#p3{width: 200px!important;}
+	#p4{width: 100px!important;}
+	/*APropos*/
+
+	/*Competences*/
+	.competences{height: 900px!important;}
+	#p11,#p6,#p8,#p9,.competencesBack2{width: 300px!important;}
+	#p7,#p10{width: 200px;}
+	.competencesBack2{font-size: 10px!important;}
+	.cardComp{width: 100px;height: 90px;}
+	.cardComp img{width: 60px;}
+	/*Competences*/
+
+	/*Projet*/
+	#p13,#p12,#p14{width: 100%;}
+	.cardProj{margin-left: auto;margin-right: auto;width: 267px;height: 400px;}
+	/*Projet*/
+
+	/*footer*/
+	#pfooter{font-size: 10px;width: 300px;}
+	.linkFooter a{margin: auto;}
+	#qrLinkf,#qrGitf{width: 70px;margin-top: 5px;}
+	.navFooter{margin-bottom: 80px;}
+	.navFooter a{font-size: 12px;}
+	#mentionsl{font-size: 12px;}
+	/*footer*/
+}
+
+@media (max-width: 440px){
+	.linkFooter{width: 300px;}
 }
