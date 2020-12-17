@@ -6,7 +6,7 @@
           <a href="#competences">Compétences</a>
           <a href="#projet">Projets</a>
         </div>
-        <p id="pfooter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero orci, posuere a odio at, pulvinar pharetra turpis. Pellentesque fringilla tortor vitae leo feugiat, non congue mauris sagittis. Fusce commodo congue ligula, a efficitur diam rhoncus id. Phasellus sollicitudin enim at elementum tincidunt. Donec in nunc ornare, fringilla est sit amet, scelerisque mauris. Donec maximus, ipsum eu ultrices facilisis, velit urna dapibus massa, at auctor dolor elit quis velit.</p>
+        <p id="pfooter">“Le principe de l'évolution est beaucoup plus rapide en informatique que chez le bipède.”</br>-Jean Dion</p>
         <div class="row linkFooter">
           <a href="https://fr.linkedin.com/in/marius-paquet"><img src="img/QRLink.png" alt="QR Code Linkedin" class="qrCode" id="qrLinkf"></a>
           <a href="https://github.com/MariusPaq"><img src="img/QRGit.png" alt="QR Code github" class="qrCode" id="qrGitf"></a>

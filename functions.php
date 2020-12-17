@@ -37,9 +37,9 @@ function createCardProjet($title,$desc,$id,$desc2,$img1,$img2,$other=false,$othe
           </div>
           <div class="modal-body">
             <p>'.$desc.'</p>
-            <img src="img/'.$img1.'"></img>
+            <img id="img1'.$id.'" src="img/'.$img1.'"></img>
             <p>'.$desc2.'</p>
-            <img src="img/'.$img2.'"></img>
+            <img id="img2'.$id.'" src="img/'.$img2.'"></img>
             <div>'.$other.'</div>
             <div>'.$other2.'</div>
           </div>

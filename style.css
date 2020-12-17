@@ -60,21 +60,22 @@ margin-left: auto;margin-right: auto;}
 .aPropos{z-index: -100;position: relative;}
 #linkPropos span{width: 150px;margin-left: auto;margin-right: auto;font-size: 15px;margin-top: 40px;}
 #txtbtnparcours{margin-top: -20px;}
-#txtbtnhobbies,#txtbtnambitions,#txtbtCv,#txtbtCvf{margin-top: -10px;}
+#txtbtnhobbies,#txtbtCv,#txtbtCvf{margin-top: -10px;}
 .aProposBack{background-color: white;overflow: hidden;border-radius: 30px;box-shadow: 0 0 20px black;
 width: 1000px;height: 600px;margin-left: auto;margin-right: auto;margin-top: -60px;}
 .curiVita {text-align: center;background-color: white;border-radius: 30px;box-shadow: 0 0 20px black;height: 200px;width: 1150px;margin-left: auto;margin-right: auto;margin-top: -110px;z-index: -1;position: relative;}
-.aPropos #PP{float: right;margin-right: 30%;margin-top: 30%;box-shadow: 0 0 20px black;border-radius: 10px;}
-#hobbies img,#ambitions img {float: right;margin-right: 30%;margin-top: 4%;}
-#ambitions img{margin-top: 30%;}
+.aPropos #PP{float: right;margin-right: 30%;margin-top: 30%;border-radius: 10px;}
+#hobbies img{float: right;margin-right: 30%;margin-top: 4%;}
 .aPropos #presentation{margin-top: 13%;margin-left: 20%;text-align: justify;}
-#txtHobbies,#txtAmbitions{text-align: justify;margin-top: 13%;margin-left: 20%;}
+#txtHobbies{text-align: justify;margin-top: 13%;}
+#hobbies ul{margin-left: 20%;}
+#hobbies li{margin-bottom: 15px;}
 .qrCode{width: 80px;}
+
 #btCv{float: left;margin-top: 125px;margin-left: 15%;}
 .linkHub{margin-top: 118px;margin-right: 15%;float: right;}
 .btn-grad {width: 200px;height: 50px;background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
-margin: 10px;padding: 30px;transition: 0.5s;text-align: center;background-size: 200% auto;border-radius: 10px;display: block;
-box-shadow: 0 0 7px black;color: white;text-shadow: 0px 0px 10px rgba(0,0,0,0.2);}
+margin: 10px;padding: 30px;transition: 0.5s;text-align: center;background-size: 200% auto;border-radius: 10px;display: block;color: white;text-shadow: 0px 0px 10px rgba(0,0,0,0.2);}
 .btn-grad p{text-align: center;margin: auto;}
 .btn-grad:hover{background-position: right center;}
 /*APropos*/
@@ -83,9 +84,9 @@ box-shadow: 0 0 7px black;color: white;text-shadow: 0px 0px 10px rgba(0,0,0,0.2)
 .competencesContain{max-width: 1140px;margin-left: auto;margin-right: auto;}
 .competences h2{float: right;margin-top: 0;height: 00px;}
 .competencesBack{padding-top: 120px;}
-.competencesBack2{height: 200px;background-color: white;box-shadow: 0 0 20px black;border-radius: 10px;margin-top: -15px;}
+.competencesBack2{height: 100px;background-color: white;box-shadow: 0 0 20px black;border-radius: 10px;margin-top: -15px;}
 .competencesBack2 p{text-align: justify;margin-left: 10%;margin-right: 10%;padding-top: 20px;}
-.cardComp{background-color: white;box-shadow: 0 0 20px black;width: 222px;height: 200px;margin-left: 5%;margin-right: 5%;margin-bottom: 50px;border-radius: 10px;overflow: hidden;}
+.cardComp{background-color: white;border: solid 1px;width: 222px;height: 200px;margin-left: 5%;margin-right: 5%;margin-bottom: 50px;border-radius: 10px;overflow: hidden;}
 .cardComp h5{margin-left: 5%;}
 .PHP img{margin-left: 9%!important;margin-top: 20px;}
 .Java img{margin-left: 12%!important;}
@@ -94,7 +95,7 @@ box-shadow: 0 0 7px black;color: white;text-shadow: 0px 0px 10px rgba(0,0,0,0.2)
 
 /*---Projet---*/
 .projet h2{margin-bottom: 100px;}
-.cardProj{box-shadow: 0 0 20px black;width: 250px;height: 400px;margin-left: 5%;margin-right: 5%;margin-bottom: 50px;border-radius: 10px;overflow: hidden;}
+.cardProj{border: solid 1px;width: 250px;height: 400px;margin-left: 5%;margin-right: 5%;margin-bottom: 50px;border-radius: 10px;overflow: hidden;}
 .cardProj a{color: #212529;text-decoration: none;}
 .hover{width: 100%;height: 100%;text-align: center;}
 .titleCardProj{padding-top: 5px;height: 24px;}
@@ -106,7 +107,8 @@ box-shadow: 0 0 7px black;color: white;text-shadow: 0px 0px 10px rgba(0,0,0,0.2)
 #id3{background-image: url('img/portfolio.png');}
 #id4{background-image: url('img/explo.PNG');}
 #id5{background-image: url('img/boulangerie.jpg');}
-
+#img1id3,#img2id3,#img1id1,#img2id1,#img2id5{width: 470px;}
+#img1id2,#img2id2{height: 650px;}
 /*---Footer---*/
 .shadowFooter{height: 10px;box-shadow: 0 0 20px black;background-color: white;}
 footer{height: 500px;text-align: center;}

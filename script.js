@@ -12,7 +12,7 @@ function flexProj(){
   } else if (window.innerWidth>500) {
     dflexproj1.className="d-flex justify-content-center";
     dflexproj2.className="d-flex justify-content-center";
-    projet.style.height="1000px";
+    projet.style.height="1300px";
   }
 }
 //dlex-projet
@@ -118,24 +118,15 @@ anime.timeline({loop: true})
   var ambitions = document.getElementById('ambitions');
 
   hobbies.style.display="none";
-  ambitions.style.display="none";
 
   btParcours.addEventListener("click",function (){
     parcours.style.display="block";
     hobbies.style.display="none";
-    ambitions.style.display="none";
   });
 
   btHobbies.addEventListener("click",function (){
     parcours.style.display="none";
     hobbies.style.display="block";
-    ambitions.style.display="none";
-  });
-
-  btAmbitions.addEventListener("click",function (){
-    parcours.style.display="none";
-    hobbies.style.display="none";
-    ambitions.style.display="block";
   });
 
   //Apropos
