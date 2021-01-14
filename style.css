@@ -104,7 +104,7 @@ margin: 10px;padding: 30px;transition: 0.5s;text-align: center;background-size: 
 #id3{background-image: url('img/portfolio.PNG');}
 #id4{background-image: url('img/Explo.jpeg');}
 #id5{background-image: url('img/boulangerie.jpg');}
-#img1id3,#img2id3,#img1id1,#img2id1,#img2id5{width: 470px;}
+#img1id3,#img2id3,#img1id1,#img2id1,#img2id5{width: 100%;}
 #img1id2,#img2id2{height: 650px;}
 
 /*Footer*/
@@ -220,7 +220,7 @@ footer{height: 500px;text-align: center;}
 	.ml13{font-size: 1em;}
 	/*APropos*/
 	.aPropos{height: 900px!important;}
-	#presentation,#txtHobbies,#txtAmbitions{font-size: 8px!important;}
+	#presentation,#hobbies li{font-size: 8px!important;}
 	.aPropos #PP, #hobbies img, #ambitions img{width: 80px;margin-right: 25%;margin-top: 20%;}
 	#btnparcours, #btnhobbies, #btnambitions, #btCv, #btCvf{width: 30px!important;overflow: hidden;}
 	#btnparcours p, #btnhobbies p, #btnambitions p, #btCv p, #btCvf p{font-size: 10px;margin-left: -20px;}
