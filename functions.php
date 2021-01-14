@@ -23,8 +23,6 @@ function createCardProjet($title,$desc,$id,$desc2,$img1,$img2,$other=false,$othe
         </div>
       </a>
     </div>
-
-
     <!-- Modal -->
     <div class="modal fade" id="modale'.$id.'" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-dialog-centered" role="document">
@@ -37,9 +35,9 @@ function createCardProjet($title,$desc,$id,$desc2,$img1,$img2,$other=false,$othe
           </div>
           <div class="modal-body">
             <p>'.$desc.'</p>
-            <img id="img1'.$id.'" src="img/'.$img1.'"></img>
+            <img id="img1'.$id.'" src="'.$img1.'"></img>
             <p>'.$desc2.'</p>
-            <img id="img2'.$id.'" src="img/'.$img2.'"></img>
+            <img id="img2'.$id.'" src="'.$img2.'"></img>
             <div>'.$other.'</div>
             <div>'.$other2.'</div>
           </div>
@@ -70,6 +68,5 @@ $(document).ready(function( $ ){
       $(this).find("h5").css('color','#212529');
     }
   );
-
 });
 </script>

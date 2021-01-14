@@ -16,29 +16,24 @@ function flexProj(){
   }
 }
 //dlex-projet
-
 //burgerMenu
 var burgerMenu = document.getElementById("burgerMenu");
 var topNav = document.getElementById("responsiveNav");
 var openBurger = 0;
-
 burgerMenu.addEventListener("click",function(){
-    burgerMenu.classList.toggle("change");
-    if (topNav.className === "topnav") {
-      topNav.className += " responsive";
-      openBurger = 1;
-    } else {
-      topNav.className = "topnav";
-      openBurger = 0;
-    }
+burgerMenu.classList.toggle("change");
+  if (topNav.className === "topnav") {
+    topNav.className += " responsive";
+    openBurger = 1;
+  } else {
+    topNav.className = "topnav";
+    openBurger = 0;
+  }
 })
-
 window.onscroll = function() {scrollBM()};
-
 var burgerMenu = document.getElementById("burgerMenu");
 var bgY = burgerMenu.offsetTop;
 var topNav = document.getElementById("responsiveNav");
-
 function scrollBM() {
   if (window.pageYOffset > bgY) {
     topNav.className = "topnav";
@@ -48,15 +43,9 @@ function scrollBM() {
     openBurger=0;
   }
 }
-//
-
-
-
-//h1
-// Wrap every letter in a span
+//Animation titre h1
 var textWrapper = document.querySelector('.ml11 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
-
 anime.timeline({loop: true})
   .add({
     targets: '.ml11 .line',
@@ -85,12 +74,9 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 3000
   });
-
-//h3
-// Wrap every letter in a span
+//Animation titre h3
 var textWrapper = document.querySelector('.ml13');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter2'>$&</span>");
-
 anime.timeline({loop: true})
   .add({
     targets: '.ml13 .letter2',
@@ -108,25 +94,19 @@ anime.timeline({loop: true})
     duration: 1000,
     delay: 2200
   });
-
-  //Apropos
-  var btParcours = document.getElementById('btnparcours');
-  var btHobbies = document.getElementById('btnhobbies');
-  var btAmbitions = document.getElementById('btnambitions');
-  var parcours = document.getElementById('parcours');
-  var hobbies = document.getElementById('hobbies');
-  var ambitions = document.getElementById('ambitions');
-
+//Apropos
+var btParcours = document.getElementById('btnparcours');
+var btHobbies = document.getElementById('btnhobbies');
+var btAmbitions = document.getElementById('btnambitions');
+var parcours = document.getElementById('parcours');
+var hobbies = document.getElementById('hobbies');
+var ambitions = document.getElementById('ambitions');
+hobbies.style.display="none";
+btParcours.addEventListener("click",function (){
+  parcours.style.display="block";
   hobbies.style.display="none";
-
-  btParcours.addEventListener("click",function (){
-    parcours.style.display="block";
-    hobbies.style.display="none";
-  });
-
-  btHobbies.addEventListener("click",function (){
-    parcours.style.display="none";
-    hobbies.style.display="block";
-  });
-
-  //Apropos
+});
+btHobbies.addEventListener("click",function (){
+  parcours.style.display="none";
+  hobbies.style.display="block";
+});
